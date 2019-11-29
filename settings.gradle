@@ -1,0 +1,2 @@
+include ':app', ':zchar'
+rootProject.name='StarGate'
