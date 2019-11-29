@@ -1,2 +1,2 @@
-include ':app', ':zchar'
-rootProject.name='StarGate'
+include ':app', ':zchar', ':sample'
+rootProject.name='stargate'
