@@ -50,4 +50,4 @@ dependencies {
 }
 ```
 
-3. 可能有用的 [wiki](wiki)
+3. 可能有用的 [wiki](./wiki)
