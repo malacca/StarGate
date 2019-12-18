@@ -1,4 +1,4 @@
-package com.malacca.stargate;
+package com.malacca.starGate;
 
 import org.junit.Test;
 
