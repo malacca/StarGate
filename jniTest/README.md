@@ -9,7 +9,7 @@ jni 中的源码文件来自 [react-native-pushy](https://github.com/reactnative
 
 1. 创建一个名为 `jniTest` 的文件夹
 
-2. 在该文件夹下创建要使用 so 文件的 java 类，我这里是 [BSDiff.java](com/malacca/archives/BSDiff.java)（生成的 so 文件只能在这个类中加载使用）, 在文件中定义 loadLibrary 的 名称，并使用 `public static native` 定义 so 库需要导出的方法
+2. 在该文件夹下创建要使用 so 文件的 java 类，生成的 so 文件只能在这个类中加载使用。我这里是 [BSDiff.java](com/malacca/archives/BSDiff.java)，在文件中定义 loadLibrary 的 名称，并使用 `static native` 方式定义 so 库需要导出的方法
 
 3. 在 `jniTest` 目录执行 `javah -d jni com.malacca.archives.BSDiff`
 
